@@ -1,0 +1,11 @@
+[package]
+name = "strider"
+version = "0.1.0"
+authors = ["Sakib Hasan <sakibccr@gmail.com>"]
+
+[dependencies]
+libc = "0.2.28"
+
+[dependencies.x11]
+version = "2.14.0"
+features = ["xlib"]
